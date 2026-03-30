@@ -12,8 +12,8 @@ env:
   # 直接写你的命名空间
   ALIYUN_NAME_SPACE: wharttest
   # 密码还是要用 secrets，这个不能明文
-  ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
-  ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USERNAME }}
+  ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_REGISTRY_PASSWORD }}
+  ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_REGISTRY_USER }}
 
 jobs:
 
